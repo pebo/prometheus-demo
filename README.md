@@ -32,6 +32,16 @@ Singlestats panel:
 `sum(increase(lfc_fruits_shipped_total[$__range]))`
 
 Table panel:
-sum(increase(lfc_fruits_shipped_total[$__range])) by (type)
+`sum(increase(lfc_fruits_shipped_total[$__range])) by (type)`
 
+## spring boot
 
+system_cpu_count
+
+curl -v localhost:8080/api/hello/World
+curl -v localhost:8080/api/hello/error
+curl -v localhost:8080/api/hello/unknown
+curl -v localhost:8080/api/lorem/5
+
+http_server_requests_seconds_count
+http_server_requests_seconds_sum
