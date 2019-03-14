@@ -1,0 +1,3 @@
+# demo prometheus metrics provider for lovely fruit company
+lfc_fruits_shipped_total{type="apple"} 0.0
+lfc_fruits_shipped_total{type="orange"} 0.0
